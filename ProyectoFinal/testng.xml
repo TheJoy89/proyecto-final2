@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Proyecto Final1">
+    
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="http://oscaraw.com/qa/"/>
+   <test name="Parameters1">
+
+       <classes>
+           <class name="Test1"/>
+
+       </classes>
+    </test>
+
+
+
+
+<parameter name="browser" value="chrome"/>
+<parameter name="url" value="http://oscaraw.com/qa/"/>
+<test name="Parameters2">
+
+    <classes>
+        <class name="Test2"/>
+
+    </classes>
+</test>
+
+
+
+<test name="Dataprovider1">
+
+    <classes>
+        <class name="Dataprovider"/>
+
+    </classes>
+</test>
+</suite>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Proyecto Final1]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="url" value="http://oscaraw.com/qa/"/>
+  <test thread-count="5" name="Parameters2(failed)">
+    <classes>
+      <class name="Test2">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="logintest3"/>
+          <include name="logintest2"/>
+        </methods>
+      </class> <!-- Test2 -->
+    </classes>
+  </test> <!-- Parameters2(failed) -->
+</suite> <!-- Failed suite [Proyecto Final1] -->
